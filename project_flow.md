@@ -1,4 +1,4 @@
-# Project flow v0.0.0
+# Project flow v0.0.1
 
 
 
@@ -25,6 +25,21 @@
 5. Pass model results to Streamlit App hosted by EC2
     * Reads preds from S3 and visualizes using Folium
     * Each model will have its own page to feature/visualize/analyze results
+
+#### Local Dev
+* Data handling + model training: can do that in colab to choose model performance then write preprocessing script again here
+* Visualizing: can run streamlit locally, test UI
+
+
+#### AWS Deployment
+* Data handling: S3 for storage, transfer scripts
+* Model training: SageMaker for training
+* Visualization: Host streamlit w/ EC2
+
+
+#### Additional considerations not to forget about
+* Docker, Poetry, Linting, TDD
+* Aux datasets done from other public surveys
 
 
 
