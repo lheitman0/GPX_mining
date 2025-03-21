@@ -43,3 +43,8 @@
 
 
 
+#### Data concern
+* Data is sparse and Zambia gov is ghosting me on OS data so may have to build with only KoBold survey
+* Maybe a new pipeline would be simply ViT trained on GPX data, feature extraction, use new stack of images for anomaly detection
+
+
